@@ -1,5 +1,6 @@
 $(function() {
-console.log('script loaded');
+
+function pageLoad() {
     var hash = $(location).attr('hash');
     var hash2 = window.location.href.split('#')[0];
 
@@ -15,4 +16,12 @@ console.log('script loaded');
 
     console.log(hash);
     console.log(hash2);
+}
+ 
+pageLoad();   
+
+$(window).on('hashchange', function(e){
+    // Your Code goes here
+    pageLoad();
+});
 });
