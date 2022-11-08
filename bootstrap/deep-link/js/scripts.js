@@ -5,6 +5,12 @@ console.log('script loaded');
 
     hash = hash.substring(1, hash.length);
 
+    if(hash === 'test') {
+	$('#' + hash).show();
+    } else {
+	return false;
+    }
+
     console.log(hash);
     console.log(hash2);
 });
