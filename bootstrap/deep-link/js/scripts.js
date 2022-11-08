@@ -11,13 +11,11 @@ console.log(hash);
     if(hash === 'test') {
 console.log(1);
 	$('.sections').hide();
-	//$('#' + hash).addClass('maw').show();
-    	$('#test').addClass('maw').show();
+	$('#' + hash).addClass('maw').show();
     } else if(hash === 'world-cup') {
 console.log(2);
 	$('.sections').hide();
-	//$('#' + hash).addClass('maw').show();
-	$('#world-cup').addClass('maw').show();
+	$('#' + hash).addClass('maw').show();
     } else {
 console.log(3);
 	$('.sections').hide();
@@ -40,8 +38,8 @@ console.log('URL has been updated');
 });
 
 $('.nav-link').click(function() {
-    location.hash = $(this).attr('id');
-console.log('id is ' + $(this).attr('id'));
+    location.hash = $(this).data('hash');
+console.log('id is ' + $(this).data('hash'));
 });
 
 });
