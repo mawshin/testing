@@ -28,6 +28,7 @@ pageLoad();
 
 $(window).on('hashchange', function(e){
     // Your Code goes here
+console.log('URL has been updated');
     pageLoad();
 });
 
