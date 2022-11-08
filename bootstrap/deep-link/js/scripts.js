@@ -33,6 +33,7 @@ $(window).on('hashchange', function(e){
 
 $('.nav-link').click(function() {
     location.hash = $(this).attr('id');
+    pageLoad();
 });
 
 });
