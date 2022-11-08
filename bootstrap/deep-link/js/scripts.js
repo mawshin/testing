@@ -9,7 +9,6 @@ console.log('script loaded');
 	$('#' + hash).show();
     } else if(hash === 'world-cup') {
 	$('#' + hash).show();
-    }
     } else {
 	return false;
     }
