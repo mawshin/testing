@@ -11,11 +11,13 @@ console.log(hash);
     if(hash === 'test') {
 console.log(1);
 	$('.sections').hide();
-	$('#' + hash).addClass('maw').show();
+	//$('#' + hash).addClass('maw').show();
+    	$('#test').addClass('maw').show();
     } else if(hash === 'world-cup') {
 console.log(2);
 	$('.sections').hide();
-	$('#' + hash).addClass('maw').show();
+	//$('#' + hash).addClass('maw').show();
+	$('#world-cup').addClass('maw').show();
     } else {
 console.log(3);
 	$('.sections').hide();
