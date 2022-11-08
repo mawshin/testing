@@ -14,6 +14,7 @@ function pageLoad() {
 	$('#' + hash).show();
     } else {
 	$('.sections').hide();
+	location.hash = 'blah';
 	return false;
     }
 
