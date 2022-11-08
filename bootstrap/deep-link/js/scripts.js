@@ -5,7 +5,9 @@ function pageLoad() {
     //var hash2 = window.location.href.split('#')[0];
 
     hash = hash.substring(1, hash.length);
+console.log(typeof hash);
 
+console.log(hash);
     if(hash === 'test') {
 	$('.sections').hide();
 	$('#' + hash).show();
@@ -20,7 +22,7 @@ function pageLoad() {
 	return false;
     }
 
-    console.log(hash);
+    
     //console.log(hash2);
 }
  
