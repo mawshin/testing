@@ -9,12 +9,15 @@ console.log(typeof hash);
 
 console.log(hash);
     if(hash === 'test') {
+console.log(1);
 	$('.sections').hide();
 	$('#' + hash).show();
     } else if(hash === 'world-cup') {
+console.log(2);
 	$('.sections').hide();
 	$('#' + hash).show();
     } else {
+console.log(3);
 	$('.sections').hide();
 	// line below will add the the hashtag to the back of the URL
 	// location.hash = 'blah';
