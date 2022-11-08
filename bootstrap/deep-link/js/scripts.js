@@ -7,8 +7,10 @@ function pageLoad() {
     hash = hash.substring(1, hash.length);
 
     if(hash === 'test') {
+	$('.sections').hide();
 	$('#' + hash).show();
     } else if(hash === 'world-cup') {
+	$('.sections').hide();
 	$('#' + hash).show();
     } else {
 	return false;
