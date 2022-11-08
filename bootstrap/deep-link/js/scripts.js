@@ -13,6 +13,7 @@ function pageLoad() {
 	$('.sections').hide();
 	$('#' + hash).show();
     } else {
+	$('.sections').hide();
 	return false;
     }
 
