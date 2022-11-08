@@ -21,7 +21,7 @@ function pageLoad() {
     }
 
     console.log(hash);
-    console.log(hash2);
+    //console.log(hash2);
 }
  
 pageLoad();   
