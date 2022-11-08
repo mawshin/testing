@@ -7,6 +7,9 @@ console.log('script loaded');
 
     if(hash === 'test') {
 	$('#' + hash).show();
+    } else if(hash === 'world-cup') {
+	$('#' + hash).show();
+    }
     } else {
 	return false;
     }
